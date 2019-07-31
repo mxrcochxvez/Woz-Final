@@ -25876,7 +25876,24 @@ function (_Component) {
         src: _me.default
       }), _react.default.createElement("div", {
         className: "aboutMe"
-      }, _react.default.createElement("h2", null, "Hello World!")));
+      }, _react.default.createElement("h2", null, "Hello World!"), _react.default.createElement("p", null, "While navigating through my website, I really hope you find yourself just as amused as I was while creating this. I tend to put all of my effort into my projects and love learning new things along the way. In this project I will be using some things that I learned outside of Woz U to show you how well I can grasp new concepts and materials.")), _react.default.createElement("div", {
+        className: "icons"
+      }, _react.default.createElement("a", {
+        href: "https://www.instagram.com/marcode_chavez/",
+        target: "__blank"
+      }, _react.default.createElement("i", {
+        class: "fab fa-instagram"
+      })), _react.default.createElement("a", {
+        href: "https://www.linkedin.com",
+        target: "__blank"
+      }, _react.default.createElement("i", {
+        class: "fab fa-linkedin"
+      })), _react.default.createElement("a", {
+        href: "https://www.twitter.com",
+        target: "__blank"
+      }, _react.default.createElement("i", {
+        class: "fab fa-twitter-square"
+      }))));
     }
   }]);
 
@@ -25970,7 +25987,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58031" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58864" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

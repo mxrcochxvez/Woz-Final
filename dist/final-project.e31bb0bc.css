@@ -13,5 +13,24 @@ body {
     margin: 15px;
     border: 2px solid #f0b1ad;
 }
+.fa-instagram {
+    font-size: 4em;
+    color: #f0b1ad;
+    margin: 10px;
+}
+.fa-linkedin {
+    font-size: 4em;
+    color: #f0b1ad;
+    margin: 10px;
+}
+.fa-twitter-square {
+    font-size: 4em;
+    color: #f0b1ad;
+    margin: 10px;
+}
+.icons {
+    border-top: 5px solid #f0b1ad;
+    padding-top: 25px;
+}
 
 /*# sourceMappingURL=/final-project.e31bb0bc.css.map */
