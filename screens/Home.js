@@ -18,10 +18,10 @@ class Home extends Component {
                     <a href="https://www.instagram.com/marcode_chavez/" target="__blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com" target="__blank">
+                    <a href="https://www.linkedin.com/in/marco-chavez-jr-334514b4/" target="__blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="__blank">
+                    <a href="https://twitter.com/marcode_chavez" target="__blank">
                         <i class="fab fa-twitter-square"></i>
                     </a>
                 </div>

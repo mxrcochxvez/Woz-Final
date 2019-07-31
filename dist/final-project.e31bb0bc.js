@@ -25884,12 +25884,12 @@ function (_Component) {
       }, _react.default.createElement("i", {
         class: "fab fa-instagram"
       })), _react.default.createElement("a", {
-        href: "https://www.linkedin.com",
+        href: "https://www.linkedin.com/in/marco-chavez-jr-334514b4/",
         target: "__blank"
       }, _react.default.createElement("i", {
         class: "fab fa-linkedin"
       })), _react.default.createElement("a", {
-        href: "https://www.twitter.com",
+        href: "https://twitter.com/marcode_chavez",
         target: "__blank"
       }, _react.default.createElement("i", {
         class: "fab fa-twitter-square"
