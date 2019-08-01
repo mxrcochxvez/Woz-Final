@@ -47,11 +47,11 @@ body {
 a {
     color: #f0b1ad;
 }
-a:hover {
+Link:hover {
     color: orange;
     text-decoration: none;
 }
-.navigation ul li a {
+.navigation ul li Link {
     font-size: 2em;
     border: 2px solid #f0b1ad;
     padding: 5px;
