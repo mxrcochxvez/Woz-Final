@@ -32,5 +32,32 @@ body {
     border-top: 5px solid #f0b1ad;
     padding-top: 25px;
 }
+.navbar {
+    color: #f0b1ad;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+}
+.navbar ul li {
+    float: left;
+    margin-left: 15px;
+}
+a {
+    color: #f0b1ad;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+.navigation ul li a {
+    font-size: 2em;
+    border: 2px solid #f0b1ad;
+    padding: 5px;
+}
+.navigation {
+    margin-top: 25px;
+}
 
 /*# sourceMappingURL=/final-project.e31bb0bc.css.map */
