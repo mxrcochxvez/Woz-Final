@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link, BrowserRouter as Router} from "react-router-dom";
 
 import Home from '../screens/Home';
+import Projects from '../components/Projects';
 
 import '../style.css';
 
@@ -20,7 +21,7 @@ class NavBar extends Component {
                             </li>
                         </ul>
                         <Route exact path="/" component={Home} />
-                        <Router path="/projects" component={null} />
+                        <Route path="/projects" component={Projects} />
                     </Router>
                 </div>
             </div>

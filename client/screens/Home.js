@@ -4,7 +4,7 @@ import me from '../images/me.jfif';
 class Home extends Component {
     render() {
         return(
-            <div class="label">
+            <div className="label">
                 <h1>Marco Chavez</h1>
                 <img src={me}></img>
                 <div className="aboutMe">
