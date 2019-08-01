@@ -44,7 +44,7 @@ body {
     float: left;
     margin-left: 15px;
 }
-a {
+.link {
     color: #f0b1ad;
 }
 .link:hover {
