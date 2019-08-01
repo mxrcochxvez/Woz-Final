@@ -14,10 +14,10 @@ class NavBar extends Component {
                     <Router>
                         <ul>
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link className="link" to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/projects">Projects</Link>
+                                <Link className="link" to="/projects">Projects</Link>
                             </li>
                         </ul>
                         <Route exact path="/" component={Home} />
