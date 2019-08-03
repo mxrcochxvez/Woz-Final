@@ -16,13 +16,13 @@ class Home extends Component {
                 </div>
                 <div className="icons">
                     <a href="https://www.instagram.com/marcode_chavez/" target="__blank">
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/marco-chavez-jr-334514b4/" target="__blank">
-                        <i class="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"></i>
                     </a>
                     <a href="https://twitter.com/marcode_chavez" target="__blank">
-                        <i class="fab fa-twitter-square"></i>
+                        <i className="fab fa-twitter-square"></i>
                     </a>
                 </div>
             </div>

@@ -44,14 +44,14 @@ body {
     float: left;
     margin-left: 15px;
 }
-a {
+.link {
     color: #f0b1ad;
 }
-a:hover {
+.link:hover {
     color: orange;
     text-decoration: none;
 }
-.navigation ul li a {
+.navigation ul li .link {
     font-size: 2em;
     border: 2px solid #f0b1ad;
     padding: 5px;

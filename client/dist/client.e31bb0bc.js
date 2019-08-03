@@ -29760,17 +29760,17 @@ function (_Component) {
         href: "https://www.instagram.com/marcode_chavez/",
         target: "__blank"
       }, _react.default.createElement("i", {
-        class: "fab fa-instagram"
+        className: "fab fa-instagram"
       })), _react.default.createElement("a", {
         href: "https://www.linkedin.com/in/marco-chavez-jr-334514b4/",
         target: "__blank"
       }, _react.default.createElement("i", {
-        class: "fab fa-linkedin"
+        className: "fab fa-linkedin"
       })), _react.default.createElement("a", {
         href: "https://twitter.com/marcode_chavez",
         target: "__blank"
       }, _react.default.createElement("i", {
-        class: "fab fa-twitter-square"
+        className: "fab fa-twitter-square"
       }))));
     }
   }]);
@@ -29780,188 +29780,7 @@ function (_Component) {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../images/me.jfif":"images/me.jfif"}],"node_modules/react-iframe/dist/es/iframe.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _objectAssign = _interopRequireDefault(require("object-assign"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var __assign = void 0 && (void 0).__assign || function () {
-  __assign = Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-      s = arguments[i];
-
-      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-    }
-
-    return t;
-  };
-
-  return __assign.apply(this, arguments);
-};
-
-var Iframe = function (_a) {
-  var url = _a.url,
-      allowFullScreen = _a.allowFullScreen,
-      position = _a.position,
-      display = _a.display,
-      height = _a.height,
-      width = _a.width,
-      overflow = _a.overflow,
-      styles = _a.styles,
-      onLoad = _a.onLoad,
-      onMouseOver = _a.onMouseOver,
-      onMouseOut = _a.onMouseOut,
-      scrolling = _a.scrolling,
-      id = _a.id,
-      frameBorder = _a.frameBorder,
-      ariaHidden = _a.ariaHidden,
-      sandbox = _a.sandbox,
-      allow = _a.allow,
-      className = _a.className,
-      title = _a.title,
-      ariaLabel = _a.ariaLabel,
-      ariaLabelledby = _a.ariaLabelledby,
-      name = _a.name,
-      target = _a.target,
-      loading = _a.loading,
-      importance = _a.importance,
-      referrerpolicy = _a.referrerpolicy,
-      allowpaymentrequest = _a.allowpaymentrequest,
-      src = _a.src;
-  var defaultProps = (0, _objectAssign.default)({
-    src: src || url,
-    target: target || null,
-    style: {
-      position: position || null,
-      display: display || "block",
-      overflow: overflow || null
-    },
-    scrolling: scrolling || null,
-    allowpaymentrequest: allowpaymentrequest || null,
-    importance: importance || null,
-    sandbox: sandbox || null,
-    loading: loading || null,
-    styles: styles || null,
-    name: name || null,
-    className: className || null,
-    referrerpolicy: referrerpolicy || null,
-    title: title || null,
-    allow: allow || null,
-    id: id || null,
-    "aria-labelledby": ariaLabelledby || null,
-    "aria-hidden": ariaHidden || null,
-    "aria-label": ariaLabel || null,
-    width: width || null,
-    height: height || null,
-    onLoad: onLoad || null,
-    onMouseOver: onMouseOver || null,
-    onMouseOut: onMouseOut || null
-  });
-  var props = Object.create(null);
-
-  for (var _i = 0, _b = Object.keys(defaultProps); _i < _b.length; _i++) {
-    var prop = _b[_i];
-
-    if (defaultProps[prop] != null) {
-      props[prop] = defaultProps[prop];
-    }
-  }
-
-  for (var _c = 0, _d = Object.keys(props.style); _c < _d.length; _c++) {
-    var i = _d[_c];
-
-    if (props.style[i] == null) {
-      delete props.style[i];
-    }
-  }
-
-  if (allowFullScreen) {
-    if ("allow" in props) {
-      var currentAllow = props.allow.replace("fullscreen", "");
-      props.allow = ("fullscreen " + currentAllow.trim()).trim();
-    } else {
-      props.allow = "fullscreen";
-    }
-  }
-
-  if (frameBorder >= 0) {
-    if (!props.style.hasOwnProperty("border")) {
-      props.style.border = frameBorder;
-    }
-  }
-
-  return _react.default.createElement("iframe", __assign({}, props));
-};
-
-var _default = Iframe;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","object-assign":"node_modules/object-assign/index.js"}],"components/Projects.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _reactIframe = _interopRequireDefault(require("react-iframe"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var Projects =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Projects, _Component);
-
-  function Projects() {
-    _classCallCheck(this, Projects);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Projects).apply(this, arguments));
-  }
-
-  _createClass(Projects, [{
-    key: "render",
-    value: function render() {
-      return _react.default.createElement("div", null);
-    }
-  }]);
-
-  return Projects;
-}(_react.Component);
-
-var _default = Projects;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","react-iframe":"node_modules/react-iframe/dist/es/iframe.js"}],"components/NavBar.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/me.jfif":"images/me.jfif"}],"components/NavBar.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29974,8 +29793,6 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactRouterDom = require("react-router-dom");
 
 var _Home = _interopRequireDefault(require("../screens/Home"));
-
-var _Projects = _interopRequireDefault(require("../components/Projects"));
 
 require("../style.css");
 
@@ -30020,16 +29837,12 @@ function (_Component) {
       }, _react.default.createElement("div", {
         className: "navigation"
       }, _react.default.createElement(_reactRouterDom.BrowserRouter, null, _react.default.createElement("ul", null, _react.default.createElement("li", null, _react.default.createElement(_reactRouterDom.Link, {
+        className: "link",
         to: "/"
-      }, "Home")), _react.default.createElement("li", null, _react.default.createElement(_reactRouterDom.Link, {
-        to: "/projects"
-      }, "Projects"))), _react.default.createElement(_reactRouterDom.Route, {
+      }, "Home"))), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
         component: _Home.default
-      }), _react.default.createElement(_reactRouterDom.Route, {
-        path: "/projects",
-        component: _Projects.default
       }))));
     }
   }]);
@@ -30039,7 +29852,7 @@ function (_Component) {
 
 var _default = NavBar;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../screens/Home":"screens/Home.js","../components/Projects":"components/Projects.js","../style.css":"style.css"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../screens/Home":"screens/Home.js","../style.css":"style.css"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
@@ -30126,7 +29939,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61950" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63252" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
