@@ -32,7 +32,10 @@ function AboutMe(props) {
             </p>
             <p>I am now about to graduate from this amazing program called Woz U, and what I want to do is build something for other people to follow in my footsteps.
               Tech isn't important where I am from, and there is no impact that software developers really make here, so getting into programming was very difficult for
-              me because no one knew why it mattered to me.
+              me because no one knew why it mattered to me. Once I gain some job experience with programming I will build a company that reaches out to children to teach them
+              why technology is important, and what we can do with technology to make the world a better place. I also want to get technology in the hands of these kids.
+              I want them to be able to interact with technology with everything they do, and I also want to offer internships to teenagers who love technology but don'taught
+              know where to start. 
             </p>
           </section>
         </div>
