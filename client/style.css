@@ -32,18 +32,6 @@ body {
     border-top: 5px solid #f0b1ad;
     padding-top: 25px;
 }
-.navbar {
-    color: #f0b1ad;
-}
-.navbar ul {
-    display: flex;
-    list-style-type: none;
-    align-content: center;
-}
-.navbar ul li {
-    float: left;
-    margin-left: 15px;
-}
 .link {
     color: #f0b1ad;
 }
@@ -51,11 +39,14 @@ body {
     color: orange;
     text-decoration: none;
 }
-.navigation ul li .link {
-    font-size: 2em;
-    border: 2px solid #f0b1ad;
-    padding: 5px;
+.links {
+    background-color: #240b36;
+    padding: 15px;
+    border-radius: 10px;
 }
-.navigation {
-    margin-top: 25px;
+.link {
+    font-size: 2em;
+}
+.left {
+    margin-left: 15px;
 }

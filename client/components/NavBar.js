@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link, BrowserRouter as Router} from "react-router-dom";
 
 import Home from '../screens/Home';
+import AboutMe from '../screens/Home';
 
 import '../style.css';
 
@@ -11,12 +12,13 @@ class NavBar extends Component {
             <div className="navbar">
                 <div className="navigation">
                     <Router>
-                        <ul>
-                            <li>
-                                <Link className="link" to="/">Home</Link>
-                            </li>
-                        </ul>
+                        <div className="links">
+                            <Link className="link" to="/">Home</Link>
+                            <Link className="link left" to="/aboutme/">About</Link>
+                        </div>
+
                         <Route exact path="/" component={Home} />
+                        <Route path="/aboutme/" component={AboutMe} />
                     </Router>
                 </div>
             </div>

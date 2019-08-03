@@ -29836,12 +29836,20 @@ function (_Component) {
         className: "navbar"
       }, _react.default.createElement("div", {
         className: "navigation"
-      }, _react.default.createElement(_reactRouterDom.BrowserRouter, null, _react.default.createElement("ul", null, _react.default.createElement("li", null, _react.default.createElement(_reactRouterDom.Link, {
+      }, _react.default.createElement(_reactRouterDom.BrowserRouter, null, _react.default.createElement("div", {
+        className: "links"
+      }, _react.default.createElement(_reactRouterDom.Link, {
         className: "link",
         to: "/"
-      }, "Home"))), _react.default.createElement(_reactRouterDom.Route, {
+      }, "Home"), _react.default.createElement(_reactRouterDom.Link, {
+        className: "link left",
+        to: "/aboutme/"
+      }, "About")), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
+        component: _Home.default
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        path: "/aboutme/",
         component: _Home.default
       }))));
     }
@@ -29939,7 +29947,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63252" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50124" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
