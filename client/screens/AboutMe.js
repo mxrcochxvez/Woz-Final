@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'react-router-dom';
 
 import '../style.css';
 
@@ -16,6 +17,9 @@ function AboutMe(props) {
             <li>MVC</li>
             <li>Source Control with GitHub</li>
             <li>Some exposure to languages such as Java, C#, and C/C++</li>
+            <li>
+              <a href="/download" target="__blank" download>Download My Resume</a>
+            </li>
           </ul>
           <section className="sectiontwo">
             <h1>My Long Term Goals</h1>

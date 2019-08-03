@@ -13,6 +13,11 @@ app.get('/api/getList', (req,res) => {
     console.log('Sent list of items');
 });
 
+app.get('/download', (req, res) => {
+    const file = `${__dirname}/download/MarcoChavezResume.pdf`;
+    res.download(file);
+});
+
 // Handles any requests that don't match the ones above
 app.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname+'/client/dist/index.html'));
