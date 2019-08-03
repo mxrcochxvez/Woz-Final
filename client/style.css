@@ -50,3 +50,31 @@ body {
 .left {
     margin-left: 15px;
 }
+.aboutme {
+    width: 97vw;
+}
+@media screen and (max-width: 1134px) {
+    .aboutme {
+        width: 95vw;
+    }
+}
+@media screen and (max-width: 623px) {
+    .aboutme {
+        width: 92vw;
+    }
+}
+.sectionone {
+    margin-top: 25px;
+}
+.titleone {
+    padding: 15px;
+    border-bottom: 4px solid #240b36;
+}
+.jumbotron {
+    background-color: orange !important;
+    text-align: center;
+}
+.skills {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #240b36;
+}

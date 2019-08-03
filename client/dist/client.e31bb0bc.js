@@ -29780,7 +29780,37 @@ function (_Component) {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../images/me.jfif":"images/me.jfif"}],"components/NavBar.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/me.jfif":"images/me.jfif"}],"screens/AboutMe.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("../style.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function AboutMe(props) {
+  return _react.default.createElement("div", {
+    className: "aboutme"
+  }, _react.default.createElement("div", {
+    className: "sectionone jumbotron"
+  }, _react.default.createElement("h1", {
+    className: "titleone"
+  }, "My Areas Of Expertise"), _react.default.createElement("ul", {
+    className: "skills"
+  }, _react.default.createElement("li", null, "ReactJS"), _react.default.createElement("li", null, "HTML, CSS, and JavaScript"), _react.default.createElement("li", null, "Database Technologies such as: MySQL, and MongoDB"), _react.default.createElement("li", null, "Building RESTful APIs using NodeJS and Express"), _react.default.createElement("li", null, "Using authentication technologies like Passport with Express"), _react.default.createElement("li", null, "MVC"), _react.default.createElement("li", null, "Source Control with GitHub"), _react.default.createElement("li", null, "Some exposure to languages such as Java, C#, and C/C++")), _react.default.createElement("section", {
+    className: "sectiontwo"
+  }, _react.default.createElement("h1", null, "My Long Term Goals"), _react.default.createElement("p", null, "Ever since I was in middle school I was programming. It began with my first computer getting a virus. My mother sent it to a friend who knew how to repair computers, because he worked in IT at some IT company I don't remember. He told me that he couldn't make it back to how it was before, that it was broken unless I wanted to learn something new... He called this new thing \"linux\". I never knew what windows, macOS, and linux were. I always assumed that all phones and computers were the same. Once he installed linux onto my computer, he immediately taught me how to run java applications through the CLI because my favorite game was minecraft which ran on Java. During this period in time Minecraft was never intended to run on a linux system, because of this if I wanted to play Minecraft I had to manually start a java virtual machine. Ever since then I had to learn how to work around all of the limitations of working with a linux machine which meant I had to learn all about the linux CLI."))));
+}
+
+var _default = AboutMe;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../style.css":"style.css"}],"components/NavBar.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29793,6 +29823,8 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactRouterDom = require("react-router-dom");
 
 var _Home = _interopRequireDefault(require("../screens/Home"));
+
+var _AboutMe = _interopRequireDefault(require("../screens/AboutMe"));
 
 require("../style.css");
 
@@ -29850,7 +29882,7 @@ function (_Component) {
         component: _Home.default
       }), _react.default.createElement(_reactRouterDom.Route, {
         path: "/aboutme/",
-        component: _Home.default
+        component: _AboutMe.default
       }))));
     }
   }]);
@@ -29860,7 +29892,7 @@ function (_Component) {
 
 var _default = NavBar;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../screens/Home":"screens/Home.js","../style.css":"style.css"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../screens/Home":"screens/Home.js","../screens/AboutMe":"screens/AboutMe.js","../style.css":"style.css"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
@@ -29947,7 +29979,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50124" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50606" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
