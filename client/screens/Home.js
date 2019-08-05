@@ -9,9 +9,8 @@ class Home extends Component {
                 <img src={me}></img>
                 <div className="aboutMe">
                     <h2>Hello World!</h2>
-                    <p>While navigating through my website, I really hope you find yourself just as amused as I was while creating this.
-                        I tend to put all of my effort into my projects and love learning new things along the way. In this project 
-                        I will be using some things that I learned outside of Woz U to show you how well I can grasp new concepts and materials.
+                    <p>
+                        I can help your business grow by building you an amazing web application that your users will be able to interact with easily. My focus is on creating beautiful web applications that are full featured with rich user options, simple yet quick navigation, and tons of customizable options for you as the business owner. If you navigate to the about me page you can see more about me!
                     </p>
                 </div>
                 <div className="icons">
