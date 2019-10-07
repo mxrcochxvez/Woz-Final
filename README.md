@@ -9,6 +9,8 @@ The final project is a sum of my best efforts to create something that I can use
 - Express JS w/ Node JS
 - Twitter Bootstrap
 
+---
+
 ```
 "dependencies": {
     "bootstrap": "^4.3.1",
