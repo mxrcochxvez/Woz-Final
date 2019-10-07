@@ -7,3 +7,15 @@ The final project is a sum of my best efforts to create something that I can use
 ## Technologies Used
 - React JS
 - Express JS w/ Node JS
+- Twitter Bootstrap
+
+```
+"dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+   // "react-iframe": "^1.8.0",
+    "react-router-dom": "^5.0.1"
+},
+```
+
