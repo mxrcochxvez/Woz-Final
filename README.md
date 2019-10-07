@@ -18,4 +18,12 @@ The final project is a sum of my best efforts to create something that I can use
     "react-router-dom": "^5.0.1"
 },
 ```
+```
+"dependencies": {
+    "express": "^4.17.1"
+},
+"devDependencies": {
+    "parcel-bundler": "^1.12.3"
+}
+```
 
